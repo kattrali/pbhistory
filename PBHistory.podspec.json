@@ -1,0 +1,13 @@
+{
+  "name": "PBHistory",
+  "version": "1.0.0",
+  "source_files": "pbhistory/*.swift",
+  "dependencies": {
+    "Commander": ["~> 0.2.2"]
+  },
+  "entry_points": {
+    "cli": {
+      "pbhistory": "bin/pbhistory.swift"
+    }
+  }
+}
