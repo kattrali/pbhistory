@@ -12,8 +12,14 @@ Simple CLI to list text items on the OS X pasteboard
 
 ## Installation
 
+### Homebrew
+
+    brew install kattrali/formulae/pbhistory
+
+### Source
+
 PBHistory is built using [Conche](https://github.com/conche/conche), the swift
 build system. To build, install conche then run:
 
-    make build
+    make install
 
